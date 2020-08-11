@@ -1,0 +1,12 @@
+{
+    "name": "hugo/junca",
+    "description": "application php",
+    "autoload": {
+        "psr-4": {
+            "Router\\": "routes/",
+            "App\\": "app/",
+            "Database\\": "database/"
+        }
+    },
+    "require": {}
+}
